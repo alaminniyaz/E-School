@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-School </title>
+    <link rel="icon" href="images/favicon.ico">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/e92fe1fda9.js" crossorigin="anonymous"></script>
+
+    <!-- External css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container-fluid header-bg-color mb-4 pb-5" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img class="img-fluid w-75" src="images/logo.png" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ps-3">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link" href="#course">Course</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item ps-3 pe-5">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                <!-- Button trigger modal -->
+                  <button class="btn btn-outline-success rounded-pill px-3 btn-extra-color text-white" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up</button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="exampleModalLabel">Sign Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3 row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control" id="staticEmail" value="email@example.com">
+                                </div>
+                              </div>
+                              <div class="mb-3 row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Reset </button>
+                        <button type="button" class="btn btn-extra-color"> Submit </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- navigation section done -->
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 py-5">
+                    <p class="fs-6 fw-light text-danger">Are you ready to learn?</p>
+                    <h1 class="fs-1 fw-bolder">Learn With Fun <br>
+                        on <span class="extra-color">any schedule</span></h1>
+                    <span class="fs-6 fw-light py-3 w-75 d-sm-block text-justify">An online school (virtual school or e-school or cyber-school) teaches students entirely or primarily online or through the Internet. ... This type of learning enables the individuals to earn transferable credits, take recognized examinations, or advance to the next level of education over the Internet.</span>   
+                    <div class="py-3">
+                        <button class="btn btn-success px-4 rounded-pill btn-extra-color">Get started</button> 
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 py-5">
+                    <img class="img-fluid pb-5" src="images/main-bg.png" alt="header pic">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- header section done -->
+
+    <main class="container">
+        <section class="py-3">
+            <div class="row gy-5">
+                <div class="col-6 col-lg-3">
+                    <div class="card p-2 text-center header-bg-color" style="border: none;">
+                        <img src="images/book.png" class="card-img-top img-fluid w-25 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="fs-5 fw-bold">1500+ Topics</p>
+                          <p class="card-text fs-6 fw-light">Learn anything</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card p-3 text-center shadow-lg rounded" style="border: none;">
+                        <img src="images/Student.png" class="card-img-top img-fluid w-25 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="fs-5 fw-bold">1500+ Students</p>
+                          <p class="card-text fs-6 fw-light">Learn anything</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card p-2 text-center header-bg-color" style="border: none;">
+                        <img src="images/Test.png" class="card-img-top img-fluid w-25 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="fs-5 fw-bold">9k+ Test taken</p>
+                          <p class="card-text fs-6 fw-light">Learn anything</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card p-2 text-center header-bg-color" style="border: none;">
+                        <img src="images/Students.png" class="card-img-top img-fluid w-25 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="fs-5 fw-bold">2000+ Student</p>
+                          <p class="card-text fs-6 fw-light">Learn anything</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- special section done -->
+        <section class="container py-5" id="course">
+            <h4 class="fw-bold text-center pb-2 fs-2">Online <span class="extra-color">Courses</span></h4>
+            <div class="row g-4 py-5">
+                <div class="col-12 col-lg-4">
+                    <div class="card rounded shadow-lg px-3 pt-3">
+                        <img src="images/Programming For Kids.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold pb-2">Programming For Kids</h5>
+                          <p class="card-text">Learn to code before you can read. Explore the very best pre-reader coding app.Kids can design and share games. Practice coding skills and create challenges ...</p>
+                          <a href="#" class="btn btn-extra-color text-light ">Buy course</a>
+                          <div class="d-flex justify-content-between pt-4">
+                              <p><i class="far fa-calendar-alt pe-1"></i>starts 20 June, 2022</p>
+                              <p><i class="fas fa-users pe-1"></i>30 seats</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card rounded shadow-lg px-3 pt-3">
+                        <img src="images/Modern Psychology.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold pb-2">Modern Psychology</h5>
+                          <p class="card-text">Modern psychology has spawned three major theoretical paradigms: cognitivism, behaviorism, and depth psychology, all of which continue longstanding philosophical ...</p>
+                          <a href="#" class="btn btn-extra-color text-light ">Buy course</a>
+                          <div class="d-flex justify-content-between pt-4">
+                              <p><i class="far fa-calendar-alt pe-1"></i>starts 20 June, 2022</p>
+                              <p><i class="fas fa-users pe-1"></i>50 seats</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card rounded shadow-lg px-3 pt-3">
+                        <img src="images/Programming for Beginners.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold pb-2">Programming for Beginners</h5>
+                          <p class="card-text">Learn to code before you can read. Explore the very best pre-reader coding app.Kids can design and share games. Practice coding skills and create challenges ...</p>
+                          <a href="#" class="btn btn-extra-color text-light ">Buy course</a>
+                          <div class="d-flex justify-content-between pt-4">
+                              <p><i class="far fa-calendar-alt pe-1"></i>starts 20 June, 2022</p>
+                              <p><i class="fas fa-users pe-1"></i>90 seats</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- course section end  -->
+        <section class="container py-4" id="testimonial">
+            <h4 class="fw-bold text-center pb-2 fs-2">Testi<span class="extra-color">monial</span></h4>
+            <div class="row py-5">
+                <div class="col-md-4 col-12">
+                    <div class="card text-center" style="border: none;">
+                        <div class="card-body">
+                          <p class="card-text fw-light">They were exactly what we were looking for when we started to plan our study.</p>
+                          <img class="img-fluid" src="images/person 1.png" class="card-img-top" alt="...">
+                          <p class="card-text pt-4 fw-bold">Regina Miles (Banker)</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card text-center" style="border: none;">
+                        <div class="card-body">
+                          <p class="card-text fw-light">They were patient with all our questions during the planning process and during our courses.</p>
+                          <img class="img-fluid" src="images/person 2.png" class="card-img-top" alt="...">
+                          <p class="card-text pt-4 fw-bold">Steve Smith (Web designer)</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card text-center" style="border: none;">
+                        <div class="card-body">
+                          <p class="card-text fw-light">They were up to the mark with there courses. Best web development bootcamp in Bangladesh.</p>
+                          <img class="img-fluid" src="images/person 3.png" class="card-img-top" alt="...">
+                          <p class="card-text pt-4 fw-bold">Chris Alice (Web developer)</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section ends -->
+        <section class="container py-4" id="contact">
+            <h4 class="fw-bold text-center pb-2 fs-2"><span class="extra-color">Contact</span> Us</h4>
+            <div class="row gy-4 py-5">
+                <div class="col-12 col-lg-6">
+                    <iframe class="rounded mobile-res" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1058310378985!2d90.42099951498192!3d23.77924543457512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c790c05989b9%3A0x76ab985d6fff1b0d!2sMiddle%20Badda%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1652931112009!5m2!1sen!2sbd" width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                    <div class="col-12 col-lg-6">
+                        <form action="https://formspree.io/f/mdovnyll" method="post">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label fw-bold">Name *</label>
+                                <input type="text" name="Name" class="form-control" id="exampleFormControlInput1" placeholder="Al Amin" required>
+                              </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label fw-bold">Email address *</label>
+                                <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label fw-bold">Messsage *</label>
+                                <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="5"></textarea>
+                              </div>
+                              <button type="reset" class="btn btn-danger text-white">Reset</button>
+                              <button type="submit" class="btn btn-extra-color text-white"><i class="fas fa-comment pe-1"></i>Message</button>
+                        </form>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section ends -->
+
+    <footer class="p-5 bg-dark">
+        <div class="row p-5 gy-5 text-white fw-lighter">
+            <div class="col-12 col-lg-6">
+                <img src="images/logo.png" alt="" srcset="">
+                <p class="pt-4">Millions of people of all ages and from around the world are improving their lives with us. If you want to build your career with us you are welcomed.</p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <h4 class="fw-bold pb-4">Upcoming Courses</h4>
+                <p>Graphic design</p>
+                <p>Web development</p>
+                <p>Digital Marketing</p>
+                <p>DevOps (bootcamp)</p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <h4 class="fw-bold pb-4">Existing Courses</h4>
+                <p>Programming for Kids</p>
+                <p>Modern psychology</p>
+                <p>Facebook Marketing</p>
+                <p>Programming for Beginners</p>
+            </div>
+        </div>
+        <p class="text-white text-center mt-5">  Designed by <span style="cursor: pointer" class=" fw-bold extra-color"> Al Amin </span> - All rights reserved &copy; 2022</p>
+    </footer>
+
+
+
+
+
+    <!-- Modal custom Javascript -->
+    
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
